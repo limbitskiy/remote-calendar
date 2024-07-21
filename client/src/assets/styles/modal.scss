@@ -1,0 +1,17 @@
+.modal-header {
+  display: flex;
+  gap: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.back-btn {
+  display: flex;
+  align-items: center;
+}
+
+.btn-cnt {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
+}

@@ -1,0 +1,29 @@
+.appointments-cnt {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.appointment-list-item {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid grey;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.appointment-btns {
+  display: flex;
+  gap: 1rem;
+}
+
+.left-part {
+  display: flex;
+  flex-direction: column;
+}
+
+.remove-btn,
+.edit-btn {
+  display: flex;
+  align-items: center;
+}
